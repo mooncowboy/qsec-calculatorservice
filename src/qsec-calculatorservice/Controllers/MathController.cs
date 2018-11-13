@@ -10,11 +10,7 @@ namespace qsec_calculatorservice.Controllers
     [ApiController]
     public class MathController : ControllerBase
     {
-        public int Substract(int v1, int v2)
-        {
-            return v1 - v2;
-        }
-
+  
         public double Substract(double v1, double v2)
         {
             return v1 - v2;
