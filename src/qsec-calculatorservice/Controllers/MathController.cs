@@ -12,9 +12,16 @@ namespace qsec_calculatorservice.Controllers
     [ApiController]
     public class MathController : ControllerBase
     {
+
+        public double Substract(double v1, double v2)
+        {
+            return v1 - v2;
+        }
+
         [HttpPost]
         public decimal Add([FromBody] BinaryOperands input) {
             return input.Add();
         }
+
     }
 }

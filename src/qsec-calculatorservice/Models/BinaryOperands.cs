@@ -9,6 +9,10 @@ namespace qsec_calculatorservice.Models {
         // [BindRequired]
         public decimal B { get; set; }
 
+        public BinaryOperands(decimal a, decimal b) {
+            this.A = a;
+            this.B = b;
+        }
 
         public decimal Add() {
             return A+B;
