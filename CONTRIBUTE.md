@@ -25,7 +25,7 @@ changes can cause bugs and can also introduce needless conflicts when merging.
 ## Suggesting Changes
 
 To suggest the changes in one of your branches, create a [pull
-request][github-pull-request] (aka PR) from your branch on GitHub.
+request][github-pull-request] (aka PR) from your branch on GitHub. Do not forget to update the README.md file with your changes.
 
 ## Local Workflows
 
